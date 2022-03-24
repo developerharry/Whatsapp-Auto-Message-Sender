@@ -1,0 +1,14 @@
+import pyautogui as pg
+import time
+time.sleep(10)
+
+j= 60 #count down start time
+
+for i in range(60):
+    pg.write('Whatsapp account will be hacked in ' + str(j) + 'sec.')
+    j = j - 1
+    pg.press('enter')
+    time.sleep(2) #time_interval
+
+pg.write('Account Hacked Successfully')
+pg.press('enter')
